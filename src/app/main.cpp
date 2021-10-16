@@ -11,8 +11,6 @@ int main(int argc, char* argv[])
     setlocale(LC_ALL, "Russian_Russia.1251");
 
     int size = 0;
-    
-    
     if (argc < 2) {
         std::cout << Error::ERROR_INPUT_WAS_EMPTY;
         exit(0);
