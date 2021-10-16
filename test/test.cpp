@@ -13,7 +13,6 @@ CTEST(border_suite, border_int_1)
     arr[1] = arrs;
     check_size(size, arr[1]);
     size -= 2;
-
     int expected = 1;
     int result = 0;
 
