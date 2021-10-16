@@ -12,6 +12,7 @@ int main(int argc, char* argv[])
 
     int size = 0;
     
+    
     if (argc < 2) {
         std::cout << Error::ERROR_INPUT_WAS_EMPTY;
         exit(0);
